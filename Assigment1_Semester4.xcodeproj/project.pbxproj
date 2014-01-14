@@ -22,6 +22,7 @@
 		EF5961001884BD32001E56AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5960DF1884BD32001E56AE /* UIKit.framework */; };
 		EF5961081884BD32001E56AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF5961061884BD32001E56AE /* InfoPlist.strings */; };
 		EF59610A1884BD32001E56AE /* Assigment1_Semester4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5961091884BD32001E56AE /* Assigment1_Semester4Tests.m */; };
+		EF5961181884C5FE001E56AE /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5961171884C5FE001E56AE /* MainMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		EF5961051884BD32001E56AE /* Assigment1_Semester4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assigment1_Semester4Tests-Info.plist"; sourceTree = "<group>"; };
 		EF5961071884BD32001E56AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF5961091884BD32001E56AE /* Assigment1_Semester4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assigment1_Semester4Tests.m; sourceTree = "<group>"; };
+		EF5961161884C5FE001E56AE /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		EF5961171884C5FE001E56AE /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				EF5960F41884BD32001E56AE /* ViewController.m */,
 				EF5960F61884BD32001E56AE /* Images.xcassets */,
 				EF5960E21884BD32001E56AE /* Supporting Files */,
+				EF5961161884C5FE001E56AE /* MainMenuViewController.h */,
+				EF5961171884C5FE001E56AE /* MainMenuViewController.m */,
 			);
 			path = Assigment1_Semester4;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5961181884C5FE001E56AE /* MainMenuViewController.m in Sources */,
 				EF5960F51884BD32001E56AE /* ViewController.m in Sources */,
 				EF5960EC1884BD32001E56AE /* AppDelegate.m in Sources */,
 				EF5960E81884BD32001E56AE /* main.m in Sources */,
@@ -474,6 +480,7 @@
 				EF59610F1884BD32001E56AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF5961101884BD32001E56AE /* Build configuration list for PBXNativeTarget "Assigment1_Semester4Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				EF5961121884BD32001E56AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

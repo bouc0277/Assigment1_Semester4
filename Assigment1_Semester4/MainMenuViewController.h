@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainMenuViewController.h
 //  Assigment1_Semester4
 //
 //  Created by Eric Bouchard on 2014-01-13.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainMenuViewController : UIViewController
 
--(IBAction)playButton:(id)sender;
-
+-(IBAction)sliderEvent:(id)sender;
+-(IBAction)backButtonEvent:(id)sender;
 
 @end

@@ -41,6 +41,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Main Menu View Controller-->
+        <scene sceneID="3iJ-ah-AGo">
+            <objects>
+                <viewController id="a7H-ie-O1C" customClass="MainMenuViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gt4-pj-X7l"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tcs-ZI-Lzu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BF6-b4-JaG">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t7g-m2-vHB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1082" y="87"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Button_Highlighted" width="80" height="80"/>
