@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5960DC1884BD32001E56AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5960DB1884BD32001E56AE /* Foundation.framework */; };
+		EF5960DE1884BD32001E56AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5960DD1884BD32001E56AE /* CoreGraphics.framework */; };
+		EF5960E01884BD32001E56AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5960DF1884BD32001E56AE /* UIKit.framework */; };
+		EF5960E61884BD32001E56AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF5960E41884BD32001E56AE /* InfoPlist.strings */; };
+		EF5960E81884BD32001E56AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5960E71884BD32001E56AE /* main.m */; };
+		EF5960EC1884BD32001E56AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5960EB1884BD32001E56AE /* AppDelegate.m */; };
+		EF5960EF1884BD32001E56AE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5960ED1884BD32001E56AE /* Main_iPhone.storyboard */; };
+		EF5960F21884BD32001E56AE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5960F01884BD32001E56AE /* Main_iPad.storyboard */; };
+		EF5960F51884BD32001E56AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5960F41884BD32001E56AE /* ViewController.m */; };
+		EF5960F71884BD32001E56AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5960F61884BD32001E56AE /* Images.xcassets */; };
+		EF5960FE1884BD32001E56AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5960FD1884BD32001E56AE /* XCTest.framework */; };
+		EF5960FF1884BD32001E56AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5960DB1884BD32001E56AE /* Foundation.framework */; };
+		EF5961001884BD32001E56AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5960DF1884BD32001E56AE /* UIKit.framework */; };
+		EF5961081884BD32001E56AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF5961061884BD32001E56AE /* InfoPlist.strings */; };
+		EF59610A1884BD32001E56AE /* Assigment1_Semester4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5961091884BD32001E56AE /* Assigment1_Semester4Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5961011884BD32001E56AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5960D01884BD32001E56AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5960D71884BD32001E56AE;
+			remoteInfo = Assigment1_Semester4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5960D81884BD32001E56AE /* Assigment1_Semester4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assigment1_Semester4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5960DB1884BD32001E56AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF5960DD1884BD32001E56AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF5960DF1884BD32001E56AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF5960E31884BD32001E56AE /* Assigment1_Semester4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assigment1_Semester4-Info.plist"; sourceTree = "<group>"; };
+		EF5960E51884BD32001E56AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF5960E71884BD32001E56AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5960E91884BD32001E56AE /* Assigment1_Semester4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assigment1_Semester4-Prefix.pch"; sourceTree = "<group>"; };
+		EF5960EA1884BD32001E56AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5960EB1884BD32001E56AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5960EE1884BD32001E56AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EF5960F11884BD32001E56AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EF5960F31884BD32001E56AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF5960F41884BD32001E56AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF5960F61884BD32001E56AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF5960FC1884BD32001E56AE /* Assigment1_Semester4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assigment1_Semester4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5960FD1884BD32001E56AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF5961051884BD32001E56AE /* Assigment1_Semester4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assigment1_Semester4Tests-Info.plist"; sourceTree = "<group>"; };
+		EF5961071884BD32001E56AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF5961091884BD32001E56AE /* Assigment1_Semester4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assigment1_Semester4Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5960D51884BD32001E56AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5960DE1884BD32001E56AE /* CoreGraphics.framework in Frameworks */,
+				EF5960E01884BD32001E56AE /* UIKit.framework in Frameworks */,
+				EF5960DC1884BD32001E56AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5960F91884BD32001E56AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5960FE1884BD32001E56AE /* XCTest.framework in Frameworks */,
+				EF5961001884BD32001E56AE /* UIKit.framework in Frameworks */,
+				EF5960FF1884BD32001E56AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5960CF1884BD32001E56AE = {
+			isa = PBXGroup;
+			children = (
+				EF5960E11884BD32001E56AE /* Assigment1_Semester4 */,
+				EF5961031884BD32001E56AE /* Assigment1_Semester4Tests */,
+				EF5960DA1884BD32001E56AE /* Frameworks */,
+				EF5960D91884BD32001E56AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5960D91884BD32001E56AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5960D81884BD32001E56AE /* Assigment1_Semester4.app */,
+				EF5960FC1884BD32001E56AE /* Assigment1_Semester4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5960DA1884BD32001E56AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5960DB1884BD32001E56AE /* Foundation.framework */,
+				EF5960DD1884BD32001E56AE /* CoreGraphics.framework */,
+				EF5960DF1884BD32001E56AE /* UIKit.framework */,
+				EF5960FD1884BD32001E56AE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF5960E11884BD32001E56AE /* Assigment1_Semester4 */ = {
+			isa = PBXGroup;
+			children = (
+				EF5960EA1884BD32001E56AE /* AppDelegate.h */,
+				EF5960EB1884BD32001E56AE /* AppDelegate.m */,
+				EF5960ED1884BD32001E56AE /* Main_iPhone.storyboard */,
+				EF5960F01884BD32001E56AE /* Main_iPad.storyboard */,
+				EF5960F31884BD32001E56AE /* ViewController.h */,
+				EF5960F41884BD32001E56AE /* ViewController.m */,
+				EF5960F61884BD32001E56AE /* Images.xcassets */,
+				EF5960E21884BD32001E56AE /* Supporting Files */,
+			);
+			path = Assigment1_Semester4;
+			sourceTree = "<group>";
+		};
+		EF5960E21884BD32001E56AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5960E31884BD32001E56AE /* Assigment1_Semester4-Info.plist */,
+				EF5960E41884BD32001E56AE /* InfoPlist.strings */,
+				EF5960E71884BD32001E56AE /* main.m */,
+				EF5960E91884BD32001E56AE /* Assigment1_Semester4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF5961031884BD32001E56AE /* Assigment1_Semester4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5961091884BD32001E56AE /* Assigment1_Semester4Tests.m */,
+				EF5961041884BD32001E56AE /* Supporting Files */,
+			);
+			path = Assigment1_Semester4Tests;
+			sourceTree = "<group>";
+		};
+		EF5961041884BD32001E56AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5961051884BD32001E56AE /* Assigment1_Semester4Tests-Info.plist */,
+				EF5961061884BD32001E56AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5960D71884BD32001E56AE /* Assigment1_Semester4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF59610D1884BD32001E56AE /* Build configuration list for PBXNativeTarget "Assigment1_Semester4" */;
+			buildPhases = (
+				EF5960D41884BD32001E56AE /* Sources */,
+				EF5960D51884BD32001E56AE /* Frameworks */,
+				EF5960D61884BD32001E56AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assigment1_Semester4;
+			productName = Assigment1_Semester4;
+			productReference = EF5960D81884BD32001E56AE /* Assigment1_Semester4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5960FB1884BD32001E56AE /* Assigment1_Semester4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5961101884BD32001E56AE /* Build configuration list for PBXNativeTarget "Assigment1_Semester4Tests" */;
+			buildPhases = (
+				EF5960F81884BD32001E56AE /* Sources */,
+				EF5960F91884BD32001E56AE /* Frameworks */,
+				EF5960FA1884BD32001E56AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5961021884BD32001E56AE /* PBXTargetDependency */,
+			);
+			name = Assigment1_Semester4Tests;
+			productName = Assigment1_Semester4Tests;
+			productReference = EF5960FC1884BD32001E56AE /* Assigment1_Semester4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5960D01884BD32001E56AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Eric Bouchard";
+				TargetAttributes = {
+					EF5960FB1884BD32001E56AE = {
+						TestTargetID = EF5960D71884BD32001E56AE;
+					};
+				};
+			};
+			buildConfigurationList = EF5960D31884BD32001E56AE /* Build configuration list for PBXProject "Assigment1_Semester4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5960CF1884BD32001E56AE;
+			productRefGroup = EF5960D91884BD32001E56AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5960D71884BD32001E56AE /* Assigment1_Semester4 */,
+				EF5960FB1884BD32001E56AE /* Assigment1_Semester4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5960D61884BD32001E56AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5960F21884BD32001E56AE /* Main_iPad.storyboard in Resources */,
+				EF5960F71884BD32001E56AE /* Images.xcassets in Resources */,
+				EF5960EF1884BD32001E56AE /* Main_iPhone.storyboard in Resources */,
+				EF5960E61884BD32001E56AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5960FA1884BD32001E56AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5961081884BD32001E56AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5960D41884BD32001E56AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5960F51884BD32001E56AE /* ViewController.m in Sources */,
+				EF5960EC1884BD32001E56AE /* AppDelegate.m in Sources */,
+				EF5960E81884BD32001E56AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5960F81884BD32001E56AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF59610A1884BD32001E56AE /* Assigment1_Semester4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5961021884BD32001E56AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5960D71884BD32001E56AE /* Assigment1_Semester4 */;
+			targetProxy = EF5961011884BD32001E56AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5960E41884BD32001E56AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5960E51884BD32001E56AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF5960ED1884BD32001E56AE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5960EE1884BD32001E56AE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5960F01884BD32001E56AE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5960F11884BD32001E56AE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5961061884BD32001E56AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5961071884BD32001E56AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF59610B1884BD32001E56AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF59610C1884BD32001E56AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF59610E1884BD32001E56AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assigment1_Semester4/Assigment1_Semester4-Prefix.pch";
+				INFOPLIST_FILE = "Assigment1_Semester4/Assigment1_Semester4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF59610F1884BD32001E56AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assigment1_Semester4/Assigment1_Semester4-Prefix.pch";
+				INFOPLIST_FILE = "Assigment1_Semester4/Assigment1_Semester4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF5961111884BD32001E56AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Assigment1_Semester4.app/Assigment1_Semester4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assigment1_Semester4/Assigment1_Semester4-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Assigment1_Semester4Tests/Assigment1_Semester4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF5961121884BD32001E56AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Assigment1_Semester4.app/Assigment1_Semester4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assigment1_Semester4/Assigment1_Semester4-Prefix.pch";
+				INFOPLIST_FILE = "Assigment1_Semester4Tests/Assigment1_Semester4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5960D31884BD32001E56AE /* Build configuration list for PBXProject "Assigment1_Semester4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF59610B1884BD32001E56AE /* Debug */,
+				EF59610C1884BD32001E56AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF59610D1884BD32001E56AE /* Build configuration list for PBXNativeTarget "Assigment1_Semester4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF59610E1884BD32001E56AE /* Debug */,
+				EF59610F1884BD32001E56AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5961101884BD32001E56AE /* Build configuration list for PBXNativeTarget "Assigment1_Semester4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5961111884BD32001E56AE /* Debug */,
+				EF5961121884BD32001E56AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5960D01884BD32001E56AE /* Project object */;
+}
