@@ -26,4 +26,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)playButton:(id)sender
+{
+    if([sender isKindOfClass:[UIButton class]] == YES)
+    {
+        UIButton * button = sender;
+        
+        //One way to do it
+        //button.selected = !button.isSelected;
+        
+        //the secound way to write the same function call
+        [button setSelected:![button isSelected]];
+    }
+}
+
 @end
